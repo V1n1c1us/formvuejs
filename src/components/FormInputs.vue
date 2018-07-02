@@ -56,7 +56,7 @@ export default {
           console.log(endereco)
 
           if (endereco.erro) {
-            $('#numero').focus()
+            $('#cep').focus()
             self.naoLocalizado = true
             return
           }
