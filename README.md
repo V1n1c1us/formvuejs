@@ -1,21 +1,50 @@
-# fomrcep
+![Vue Js](https://i1.wp.com/jsdn.pl/wp-content/uploads/2016/09/Vue.js-wprowadzenie.png?resize=660%2C218)
 
-> A Vue.js project
+# Form ViaCep
 
-## Build Setup
+***
+# **Usage**
+## 
+### **Vue Cli**
+`$ npm install -g vue-cli`
 
-``` bash
-# install dependencies
-npm install
+`$ vue init <template-name> <project-name>`
 
-# serve with hot reload at localhost:8080
-npm run dev
+Example:
 
-# build for production with minification
-npm run build
+`$ vue init webpack my-project`
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+### **Vue The Mask**
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+`npm i -S vue-the-mask`
+
+**// Global**
+
+``import VueTheMask from 'vue-the-mask'``
+
+``Vue.use(VueTheMask)``
+
+**// Local Component**
+
+`import {TheMask} from 'vue-the-mask'`
+
+`export default { components: {TheMask} }`
+
+### ViaCep
+
+**Example search by zip code:**
+
+`viacep.com.br/ws/01001000/json/`
+
+## Build Project
+
+`$ npm run dev`
+
+
+### **References**
+* https://vuejs.org/
+* https://www.npmjs.com/package/vue-cli
+* https://vuejs-tips.github.io/vue-the-mask/
+* https://viacep.com.br/
+* http://getbootstrap.com/
+* https://www.npmjs.com/package/bootstrap-vue
